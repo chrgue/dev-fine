@@ -1,6 +1,6 @@
 # Dev-Fine 
 
-Defines and installs development environment with ansible.
+Defines and installs my development environment with ansible.
 
 
 ### Java
