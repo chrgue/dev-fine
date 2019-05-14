@@ -1,0 +1,8 @@
+---
+
+- include: "packages.yml"
+- include: "chrome.yml"
+- include: "git_aliases.yml"
+- name: Install zsh role
+  include_role:
+    name: viasite-ansible.zsh

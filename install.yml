@@ -1,0 +1,13 @@
+---
+
+- name: Setup Enviroment
+  hosts: all
+  roles:
+    - { role: docker, become: yes }
+    - { role: java, become: yes }
+    - { role: common, become: yes }
+
+
+
+
+

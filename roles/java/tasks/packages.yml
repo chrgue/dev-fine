@@ -1,0 +1,13 @@
+---
+
+- name: Install packages
+  become: yes
+  package:
+    name: "{{item}}"
+    state: present
+  with_items:
+    - git
+    - wget
+    - curl
+    - maven
+    - xclip
