@@ -16,7 +16,7 @@ Defines and installs my development environment with ansible.
 ### Docker
  - Installs docker community edition
  - Installs docker-compose
- - Adds current to docker group (to perform docker without sudo)
+ - Adds current user to docker group (to perform docker without sudo)
  - Downloads common images (missing)
 
 ### Database Tooling
