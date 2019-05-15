@@ -37,9 +37,6 @@ HowTo:
 ```bash
 $ sudo apt install ansible
 $ cd <project_dir>
-
-# installs required roles from https://galaxy.ansible.com 
-$ ansible-galaxy install -r requirements.yml
 $ ansible-playbook -i ./hosts ./install.yml
 ```
 
