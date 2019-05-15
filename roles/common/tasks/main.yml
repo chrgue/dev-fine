@@ -10,7 +10,7 @@
 - include: packages.yml
 
 - include: git.yml
-  become: "{{ ansible_user_id }}" #  execute for current user
+  become: false
 
 - name: Install zsh role
   include_role:
