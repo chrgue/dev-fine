@@ -1,8 +1,12 @@
 ---
 
-- include: "packages.yml"
-- include: "chrome.yml"
-- include: "git_aliases.yml"
+- include: chrome.yml
+
+- include: packages.yml
+
+- include: git.yml
+  become: "{{ ansible_user_id }}" #  execute for current user
+
 - name: Install zsh role
   include_role:
     name: viasite-ansible.zsh
