@@ -1,8 +1,4 @@
 ---
-- name: Install roles from ansible galaxy
-  become: false
-  command: ansible-galaxy install -r requirements.yml
-
 - name: Install Google Chrome
   include_role:
     name: withmethod.google-chrome

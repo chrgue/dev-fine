@@ -5,7 +5,7 @@ Defines and installs my development environment with ansible.
 
 ### Java
 * Installs Zulu JDK **(todo)**
-* Installs Intellj Community Edition **(todo)**
+* Installs Intellj Community Edition
 * Installs common java tools (e.g. maven)
 
 ### python

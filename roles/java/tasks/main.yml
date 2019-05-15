@@ -1,3 +1,6 @@
 ---
 - include: "packages.yml"
 - include: "install_zulu.yml"
+- name: Install IntelliJ
+  include_role:
+    name: gantsign.intellij

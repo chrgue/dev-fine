@@ -3,3 +3,5 @@ git:
   name: Chris
 docker:
   users: ["{{ ansible_user_id }}"]
+
+intellij_version: '2019.1.1'
