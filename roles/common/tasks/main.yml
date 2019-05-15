@@ -1,6 +1,8 @@
 ---
 
-- include: chrome.yml
+- name: Install Google Chrome
+  include_role:
+    name: withmethod.google-chrome
 
 - include: packages.yml
 
