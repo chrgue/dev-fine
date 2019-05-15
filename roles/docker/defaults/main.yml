@@ -1,1 +1,1 @@
-docker_users: ["{{ ansible_user_id }}"]
+docker_users: "{{ docker.users }}"

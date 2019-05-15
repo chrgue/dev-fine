@@ -1,10 +1,10 @@
 ---
 
 - name: Setup Enviroment
-  hosts: all
+  hosts: local
   roles:
-    #- { role: docker, become: yes }
-    #- { role: java, become: yes }
+    - { role: docker, become: yes }
+    - { role: java, become: yes }
     - { role: common, become: yes }
 
 

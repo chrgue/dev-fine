@@ -1,0 +1,5 @@
+git:
+  mail: chr.gue@gmail.com
+  name: Chris
+docker:
+  users: ["{{ ansible_user_id }}"]
