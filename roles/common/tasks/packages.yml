@@ -10,3 +10,4 @@
     - curl
     - xclip
     - httpcode
+    - silversearcher-ag
