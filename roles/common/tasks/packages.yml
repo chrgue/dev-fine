@@ -1,6 +1,6 @@
 ---
 
-- name: Install common util packages
+- name: Install common packages
   package:
     name: "{{item}}"
     state: present
@@ -9,3 +9,4 @@
     - wget
     - curl
     - xclip
+    - httpcode
