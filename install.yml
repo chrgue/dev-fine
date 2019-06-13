@@ -3,7 +3,7 @@
 - name: Setup Enviroment
   hosts: local
   roles:
-    - { role: docker, become: yes }
+    - { role: geerlingguy.docker, become: yes , tags: docker}
     - { role: java, become: yes }
     - { role: common, become: yes }
 
