@@ -37,6 +37,6 @@ HowTo:
 ```bash
 $ sudo apt install ansible
 $ cd <project_dir>
-$ ansible-playbook -i ./hosts ./install.yml
+$ ansible-playbook ./install.yml
 ```
 
