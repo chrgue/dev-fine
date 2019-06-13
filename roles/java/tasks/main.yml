@@ -1,6 +1,24 @@
 ---
-- include: "packages.yml"
-- include: "install_zulu.yml"
+- name: Add zulu repository key
+  apt_key:
+    keyserver: "hkp://keyserver.ubuntu.com:80"
+    id: "0xB1998361219BD9C9"
+
+- name: Add zulu repository
+  apt_repository:
+    repo: "deb [arch=amd64] http://repos.azulsystems.com/ubuntu stable main"
+    update_cache: yes
+
+- name: Install java
+  apt:
+    name: "{{ java_version }}"
+
+- name: Install java tools
+  package:
+    name: "{{item}}"
+    state: present
+  with_items: "{{ java_tools }}"
+
 - name: Install IntelliJ
   include_role:
     name: gantsign.intellij

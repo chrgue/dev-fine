@@ -1,11 +1,13 @@
 ---
 
 - name: Setup Enviroment
-  hosts: local
+  hosts: all
   roles:
-    - { role: geerlingguy.docker, become: yes , tags: docker}
-    - { role: java, become: yes }
-    - { role: common, become: yes }
+    - { role: withmethod.google-chrome, become: yes , tags: chrome }
+    - { role: geerlingguy.docker, become: yes , tags: docker }
+    - { role: java, become: yes, tags: java }
+    - { role: tools, become: yes, tags: tools }
+    - { role: viasite-ansible.zsh, become: yes}
 
 
 

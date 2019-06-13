@@ -1,6 +1,8 @@
 git:
   mail: chr.gue@gmail.com
   name: Chris
+
 docker_users: ["{{ ansible_user_id }}"]
 
 intellij_version: '2019.1.1'
+java_version: zulu-11

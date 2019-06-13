@@ -1,0 +1,12 @@
+java_tools:
+  - maven
+
+common_tools:
+  - git
+  - wget
+  - curl
+  - xclip
+  - httpcode
+  - httpie
+  - silversearcher-ag
+  - apache2-utils

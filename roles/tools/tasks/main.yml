@@ -1,0 +1,7 @@
+---
+
+- name: Install tools
+  package:
+    name: "{{item}}"
+    state: present
+  with_items: "{{ common_tools }}"
