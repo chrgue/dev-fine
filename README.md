@@ -6,16 +6,22 @@ Defines and installs my development environment with ansible.
 
 To run the full installation:
 ```bash
+# install ansible
 $ sudo apt install ansible
 $ cd <project_dir>
+# install required ansible roles 
+$ ansible-galaxy install -r requirements.yml
 $ ansible-playbook ./install.yml
 ```
 
 To choose certain aspects of the setup you can do that by tags.
 For example to install a chrome browser, common tooling and docker run the following command:
 ```bash
+# install ansible
 $ sudo apt install ansible
 $ cd <project_dir>
+# install required ansible roles 
+$ ansible-galaxy install -r requirements.yml
 $ ansible-playbook ./install.yml --tags chrome,tools,docker
 ```
 
