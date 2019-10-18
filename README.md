@@ -4,7 +4,7 @@ Defines and installs my development environment with ansible.
 
 
 
-Preparation
+Preparation:
 
     $ sudo apt install ansible
     $ cd <project_dir>
@@ -12,17 +12,17 @@ Preparation
     $ ansible-galaxy install -r requirements.yml
 
 
-Full environment
+Full environment:
 
     $ cd <project_dir>
     $ ansible-playbook playbooks/full.yml --ask-become
 
-Essential environment 
+Essential environment: 
 
     $ cd <project_dir>
     $ ansible-playbook playbooks/essentials.yml --ask-become
 
-Java environment 
+Java environment:
 
     $ cd <project_dir>
     $ ansible-playbook playbooks/java.yml --ask-become
