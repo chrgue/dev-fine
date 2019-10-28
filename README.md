@@ -54,30 +54,6 @@ Preparation:
     # install required ansible roles 
     $ ansible-galaxy install -r requirements.yml
 
-
-
-## Quick Start
-
-Without much knowledge about ansible you can just copy & paste the following command in your terminal and you are good to go:
-
-    $ bash <(wget -qO- https://raw.githubusercontent.com/chrgue/dev-fine/master/install.sh)
-
-
-
-Full environment:
-
-    $ cd <project_dir>
-    $ ansible-playbook playbooks/full.yml --ask-become
-
-Essential environment: 
-
-    $ cd <project_dir>
-    $ ansible-playbook playbooks/essentials.yml --ask-become
-
-Java environment:
-
-    $ cd <project_dir>
-    $ ansible-playbook playbooks/java.yml --ask-become
     
     
 [1]: https://github.com/koichirok/ansible-role-google-chrome
