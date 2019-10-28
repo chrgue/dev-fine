@@ -44,17 +44,6 @@ First make sure you have ansible installed
 #### Run playbook
 
     $ ansible-playbook playbook.yml
-
-
-
-Preparation:
-
-    $ sudo apt install ansible
-    $ cd <project_dir>
-    # install required ansible roles 
-    $ ansible-galaxy install -r requirements.yml
-
-    
     
 [1]: https://github.com/koichirok/ansible-role-google-chrome
 [2]: https://github.com/geerlingguy/ansible-role-docker
