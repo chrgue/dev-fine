@@ -20,6 +20,3 @@ dependecies:
   - role: koichirok.google_chrome
     become: yes
   - role: viasite-ansible.zsh
-
-
-
