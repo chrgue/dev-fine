@@ -1,7 +1,0 @@
-- src: git@github.com:chrgue/ansible-role-dev-essentials.git
-  scm: git
-  name: "cgu-essentials"
-
-- src: git@github.com:chrgue/ansible-role-java.git
-  scm: git
-  name: "cgu-java"

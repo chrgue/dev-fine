@@ -1,6 +1,0 @@
----
-
-- name: Install Java development enviroment
-  hosts: all
-  roles:
-    - "cgu-java"

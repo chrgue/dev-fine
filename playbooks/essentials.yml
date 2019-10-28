@@ -1,6 +1,0 @@
----
-
-- name: Install development essentials
-  hosts: all
-  roles:
-    - "cgu-essentials"

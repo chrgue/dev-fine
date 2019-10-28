@@ -1,0 +1,27 @@
+----
+
+galaxy_info:
+  role_name: dev_fine
+  description: Installs my complete debelopment enviroment
+  author: Christian Günther
+  version: 0.0.1
+  platforms:
+      - name: Ubuntu
+  galaxy_tags:
+    - development
+
+dependecies:
+  - role: chrgue.development_essentials
+  - role: chrgue.java_development
+    become: yes
+  - role: geerlingguy.docker
+    become: yes
+    vars:
+      docker_users:
+        - "{{ ansible_user_id }}"
+  - role: koichirok.google_chrome
+    become: yes
+  - role: viasite-ansible.zsh
+
+
+
